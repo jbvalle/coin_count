@@ -1,0 +1,21 @@
+:exercise-name: Counting Coins
+
+= {exercise-name}
+
+Die folgende Aufgabenstellung dient der Übung von Pointern.
+
+== Aufgabenstellung
+
+Schreiben Sie eine Funktion, die einen Geldwert (in Cent) als Integer übergeben bekommt und bearbeitet.
+Die Funktion soll den übergebenen Geldwert in die minimale Anzahl von Münzen umrechnen, die in Summe diesen Wert hat.
+Zulässige Münzen sind 10 Cent, 5 Cent, 2 Cent und 1 Cent.
+Die Anzahl der einzelnen Münzen soll an den Aufrufer zurückgegeben werden.
+Die Funktion soll z.B. für die Eingabe der Summe `107` 10×10ct, 1×5ct, 1x2ct und 0×1ct berechnen.
+Die Funktion soll 0 retournieren wenn kein Fehler aufgetreten ist.
+Eine Verwendung von jeglichen globalen Variablen ist nicht zulässig.
+Betten Sie die Funktion in ein geeignetes Programm ein, um sie zu testen.
+
+Der Prototyp für die Funktion könnte zum Beispiel so aussehen:
+----
+int countcoins(int betrag, int *cent10, int *cent5, int *cent2, int *cent1);
+----
